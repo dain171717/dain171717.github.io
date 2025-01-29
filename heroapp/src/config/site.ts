@@ -66,4 +66,7 @@ export const siteConfig = {
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
   },
+  api: {
+    google: "https://script.google.com/macros/s/AKfycbxQfg-SAlfSy3P7WZ3ogriLDzup87rq0jLiN8tZ1jPc-YI5_Sr1ivcADOV2HOjDbmipLg/exec"
+  }
 };
