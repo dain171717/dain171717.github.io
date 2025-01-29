@@ -8,6 +8,32 @@
 <body>
   <h1>허다인 선생의 명언 공장</h1>
   <b>천지신명이시여!</b>
-
+  
+  <script>
+    window.onload = function() {
+      // Google Apps Script 웹 앱 URL
+      const url = 'https://script.google.com/macros/s/AKfycbzO0iVMppmkKK0St3ZNGlyXCPb49sSaeM1GhuLD10cQWvi9sgThQiA1TFXUkz3C8s7YgA/exec'
+      fetch(url, {
+          redirect: "follow",
+          method: "GET",
+          headers: {
+            "Content-Type": "text/plain;charset=utf-8",
+          },
+        })
+        .then(response => response.json())
+        .then(data => {
+          console.log('sfddsf')
+          const resultDiv = document.getElementById('result');
+          data.forEach(row => {
+            const rowElement = document.createElement('p');
+            rowElement.textContent = JSON.stringify(row);  // 각 행을 JSON 형태로 출력
+            resultDiv.appendChild(rowElement);
+          });
+        })
+        .catch(error => console.error('Error:', error));
+    };
+  </script>
+  <div id="result">
+  </div>
 </body>
 </html>
