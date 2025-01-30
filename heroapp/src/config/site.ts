@@ -3,6 +3,32 @@ export type SiteConfig = typeof siteConfig;
 export const siteConfig = {
   name: "Vite + HeroUI",
   description: "Make beautiful websites regardless of your design experience.",
+  categories: [
+    {
+      label: "#심리학",
+      href: "/"
+    },
+    {
+      label: "#철학",
+      href: "/"
+    },
+    {
+      label: "#글귀",
+      href: "/"
+    },
+    {
+      label: "영화",
+      href: "/"
+    },
+    {
+      label: "#소설",
+      href: "/"
+    },
+    {
+      label: "정치",
+      href: "/"
+    }
+  ],
   navItems: [
     {
       label: "Home",
