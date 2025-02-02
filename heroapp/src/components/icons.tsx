@@ -5,8 +5,6 @@ import clover from '../assets/clover.png';
 
 export const Logo: React.FC<IconSvgProps> = ({
   size = 36,
-  height,
-  ...props
 }) => (
   <img 
     src={clover} 

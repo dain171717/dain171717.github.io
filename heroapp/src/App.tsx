@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/home.tsx"
 import IndexPage from "./pages/index.tsx";
 import DocsPage from "@/pages/docs";
 import PricingPage from "@/pages/pricing";

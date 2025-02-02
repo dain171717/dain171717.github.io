@@ -1,13 +1,9 @@
-import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
 import {
   Navbar as HeroUINavbar,
   NavbarBrand,
   NavbarContent,
-  NavbarItem,
 } from "@heroui/navbar";
-import { link as linkStyles } from "@heroui/theme";
-import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { Logo } from "@/components/icons";

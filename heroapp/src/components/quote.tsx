@@ -5,7 +5,7 @@ import {Card, CardHeader, Image} from "@heroui/react";
 
 type quoteProps = {
   content: string;
-  tags: "#명언";
+  tags: string;
 }
 
 export default function Quote(props: quoteProps) {
